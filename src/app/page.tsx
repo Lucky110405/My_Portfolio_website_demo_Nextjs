@@ -1,9 +1,10 @@
 import Link from "next/link"
 import Image from "next/image"
-import { X, Twitter, Github, Linkedin, Mail } from "lucide-react"
+import { Twitter, Github, Linkedin, Mail } from "lucide-react"
 import { JSX, SVGProps } from "react"
 
-export default function Component() {
+
+export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
@@ -44,8 +45,8 @@ export default function Component() {
                   </p>
                 </div>
               </div>
-              <img
-                src="/placeholder.svg"
+              <Image
+                src="/lucky.png"
                 width="550"
                 height="550"
                 alt="Lucky"
@@ -125,7 +126,7 @@ export default function Component() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Skills</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  These are the technical and soft skills I have mastered so far,<br/> and I am committed to continuous learning.
+                  These are the technical and soft skills I have mastered so far,<br /> and I am committed to continuous learning.
                 </p>
               </div>
             </div>
@@ -225,7 +226,7 @@ export default function Component() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">My Current Experience</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I am currently pursuing B.Tech in Computer Science while actively working on personal projects. <br/>I am always on the lookout for new challenges and opportunities to learn and grow. Feel free to reach out if you have a project where I can contribute.
+                I am currently pursuing B.Tech in Computer Science while actively working on personal projects. <br />I am always on the lookout for new challenges and opportunities to learn and grow. Feel free to reach out if you have a project where I can contribute.
               </p>
             </div>
           </div>
@@ -318,7 +319,7 @@ function MountainIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) 
 }
 
 
-function PenToolIcon(props) {
+function PenToolIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
