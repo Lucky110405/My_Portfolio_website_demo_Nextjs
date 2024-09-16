@@ -68,53 +68,56 @@ export default function Home() {
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:gap-12">
               <Link
                 href="#"
+                target="_blank"
                 className="group relative overflow-hidden rounded-xl transition-all after:absolute after:inset-0 after:bg-black after:opacity-0 after:transition-all hover:after:opacity-20 focus:after:opacity-20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                 prefetch={false}
               >
                 <img
-                  src="/placeholder.svg"
+                  src="/ToDo.jpeg"
                   width="550"
                   height="310"
                   alt="Project"
                   className="mx-auto aspect-video w-full object-cover object-center"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center space-y-2 p-4 text-center text-primary-foreground opacity-0 transition-all group-hover:opacity-100 group-focus:opacity-100">
-                  <h3 className="text-xl font-bold text-gray-500">Project 1</h3>
-                  <p className="text-sm text-gray-500">A ToDo app in Node.js.</p>
+                  <h3 className="text-xl font-bold text-gray-700">Project 1</h3>
+                  <p className="text-sm text-gray-700">A ToDo app in Node.js.</p>
                 </div>
               </Link>
               <Link
-                href="#"
+                href="https://github.com/Lucky110405/YouTube-homepage-clone.git"
+                target="_blank"
                 className="group relative overflow-hidden rounded-xl transition-all after:absolute after:inset-0 after:bg-black after:opacity-0 after:transition-all hover:after:opacity-20 focus:after:opacity-20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                 prefetch={false}
               >
                 <img
-                  src="/placeholder.svg"
+                  src="/YT_clone.jpeg"
                   width="550"
                   height="310"
                   alt="Project"
                   className="mx-auto aspect-video w-full object-cover object-center"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center space-y-2 p-4 text-center text-primary-foreground opacity-0 transition-all group-hover:opacity-100 group-focus:opacity-100">
-                  <h3 className="text-xl font-bold text-gray-500">Project 2</h3>
-                  <p className="text-sm text-gray-500">A YouTube frontend clone.</p>
+                  <h3 className="text-xl font-bold text-gray-700">Project 2</h3>
+                  <p className="text-sm text-gray-700">A YouTube frontend clone.</p>
                 </div>
               </Link>
               <Link
-                href="#"
+                href="https://github.com/Lucky110405/shorten-url.git"
+                target="_blank"
                 className="group relative overflow-hidden rounded-xl transition-all after:absolute after:inset-0 after:bg-black after:opacity-0 after:transition-all hover:after:opacity-20 focus:after:opacity-20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                 prefetch={false}
               >
                 <img
-                  src="/placeholder.svg"
+                  src="/short_URL.jpeg"
                   width="550"
                   height="310"
                   alt="Project"
                   className="mx-auto aspect-video w-full object-cover object-center"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center space-y-2 p-4 text-center text-primary-foreground opacity-0 transition-all group-hover:opacity-100 group-focus:opacity-100">
-                  <h3 className="text-xl font-bold text-gray-500">Project 3</h3>
-                  <p className="text-sm text-gray-500">A Shorten URL app.</p>
+                  <h3 className="text-xl font-bold text-gray-700">Project 3</h3>
+                  <p className="text-sm text-gray-700">A Shorten URL app.</p>
                 </div>
               </Link>
             </div>
@@ -237,16 +240,16 @@ export default function Home() {
           <p>&copy; 2024 M Lucky. All rights reserved.</p>
           <div className="flex space-x-4">
             <p>Contact me on : </p>
-            <Link href="#" aria-label="Twitter">
+            <Link href="https://x.com/lucky110405" target="_blank" aria-label="Twitter">
               <Twitter className="w-6 h-6" />
             </Link>
-            <Link href="#" aria-label="GitHub">
+            <Link href="https://github.com/Lucky110405" target="_blank" aria-label="GitHub">
               <Github className="w-6 h-6" />
             </Link>
-            <Link href="#" aria-label="LinkedIn">
+            <Link href="https://www.linkedin.com/in/lucky-m" target="_blank" aria-label="LinkedIn">
               <Linkedin className="w-6 h-6" />
             </Link>
-            <Link href="#" aria-label="Email">
+            <Link href="mailto:mlucky110405@gmail.com" target="_blank" aria-label="Email">
               <Mail className="w-6 h-6" />
             </Link>
           </div>
